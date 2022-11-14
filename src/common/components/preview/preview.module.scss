@@ -1,0 +1,81 @@
+@import "src/index";
+
+.preview {
+  position: relative;
+  width: 100%;
+  height: 716px;
+}
+
+.background {
+  width: 100%;
+}
+
+.header,
+.nav {
+  position: absolute;
+  display: flex;
+  color: $white;
+}
+
+.header {
+  bottom: 70px;
+  text-align: center;
+  justify-content: center;
+}
+
+.header__wrapper {
+  max-width: 35%;
+}
+
+.nav {
+  bottom: 40px;
+  right: 40px;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.text {
+
+}
+
+.name {
+  color: $gray;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0 0 18px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $gray;
+}
+

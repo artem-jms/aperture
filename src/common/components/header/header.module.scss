@@ -1,0 +1,54 @@
+@import "./src/index";
+
+
+
+.header {
+  color: $header;
+  background-color: $header;
+  padding: 0 140px;
+  user-select: none;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  list-style-type: none;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.header__buttons a {
+  font-family: $font;
+  color: $white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.header__button__huge {
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header__button__huge a {
+  color: $black;
+  letter-spacing: 0.4px;
+}
