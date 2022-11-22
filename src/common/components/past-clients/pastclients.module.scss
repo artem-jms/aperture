@@ -1,0 +1,33 @@
+@import "./src/index";
+
+.wrapper {
+  margin: 100px 20px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: $white;
+}
+
+.description {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: $gray;
+}
+
+.companies {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}

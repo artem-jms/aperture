@@ -5,6 +5,7 @@ interface ImageProps {
     src: string,
     alt: string,
     className?: string,
+    style?: {},
 }
 
 export const Image: FC<ImageProps> = ({alt, src, className}) => {
